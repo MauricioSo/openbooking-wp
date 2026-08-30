@@ -1,0 +1,644 @@
+# OpenBooking WP - Translation template
+# Copyright (C) 2024 OpenBooking WP
+# This file is distributed under the same license as the OpenBooking WP plugin.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenBooking WP 1.1.0\n"
+"Report-Msgid-Bugs-To: https://github.com/openbookingwp/openbooking-wp/issues\n"
+"POT-Creation-Date: 2026-04-05 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: OpenBooking WP\n"
+"X-Domain: openbooking-wp\n"
+
+#. Public booking flow
+msgid "Cargando..."
+msgstr ""
+
+msgid "Ocurrió un error. Intenta de nuevo."
+msgstr ""
+
+msgid "Ese horario acaba de ocuparse."
+msgstr ""
+
+msgid "Tu reserva fue confirmada"
+msgstr ""
+
+msgid "No hay horarios disponibles para esta fecha."
+msgstr ""
+
+msgid "Selecciona una fecha"
+msgstr ""
+
+msgid "Selecciona un horario"
+msgstr ""
+
+msgid "Completa tus datos"
+msgstr ""
+
+msgid "Este campo es obligatorio."
+msgstr ""
+
+msgid "Correo electrónico no válido."
+msgstr ""
+
+msgid "Cancelar reserva"
+msgstr ""
+
+msgid "Reprogramar"
+msgstr ""
+
+msgid "¿Cancelar esta reserva?"
+msgstr ""
+
+msgid "Pago procesado correctamente."
+msgstr ""
+
+msgid "El pago no se completó."
+msgstr ""
+
+msgid "Puedes intentar de nuevo."
+msgstr ""
+
+msgid "Volver a intentar"
+msgstr ""
+
+msgid "Total"
+msgstr ""
+
+msgid "Sí"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "Formulario de reserva"
+msgstr ""
+
+msgid "Pasos del proceso"
+msgstr ""
+
+msgid "Servicio"
+msgstr ""
+
+msgid "Fecha y hora"
+msgstr ""
+
+msgid "Tus datos"
+msgstr ""
+
+msgid "Pago"
+msgstr ""
+
+msgid "Reserva tu hora"
+msgstr ""
+
+msgid "Selecciona un servicio"
+msgstr ""
+
+msgid "Cargando servicios..."
+msgstr ""
+
+msgid "Calendario"
+msgstr ""
+
+msgid "Horarios disponibles"
+msgstr ""
+
+msgid "Volver"
+msgstr ""
+
+msgid "Confirmar reserva"
+msgstr ""
+
+msgid "Preparando pago..."
+msgstr ""
+
+#. Admin - General
+msgid "OpenBooking"
+msgstr ""
+
+msgid "Inicio"
+msgstr ""
+
+msgid "Agenda"
+msgstr ""
+
+msgid "Servicios"
+msgstr ""
+
+msgid "Clientes"
+msgstr ""
+
+msgid "Pagos"
+msgstr ""
+
+msgid "Ajustes"
+msgstr ""
+
+msgid "Recursos"
+msgstr ""
+
+msgid "Diseño"
+msgstr ""
+
+msgid "Disponibilidad"
+msgstr ""
+
+msgid "Guardar"
+msgstr ""
+
+msgid "Guardar cambios"
+msgstr ""
+
+msgid "Guardando..."
+msgstr ""
+
+msgid "Editar"
+msgstr ""
+
+msgid "Eliminar"
+msgstr ""
+
+msgid "¿Estás seguro de eliminar esto?"
+msgstr ""
+
+msgid "Cancelar"
+msgstr ""
+
+msgid "Nuevo servicio"
+msgstr ""
+
+msgid "Nuevo recurso"
+msgstr ""
+
+#. Admin - Settings
+msgid "General"
+msgstr ""
+
+msgid "Nombre del negocio"
+msgstr ""
+
+msgid "País"
+msgstr ""
+
+msgid "Zona horaria"
+msgstr ""
+
+msgid "Idioma"
+msgstr ""
+
+msgid "Moneda"
+msgstr ""
+
+msgid "Eliminar datos al desinstalar"
+msgstr ""
+
+msgid "Si activas esto, todas las reservas, servicios y configuraciones se borrarán al desinstalar el plugin."
+msgstr ""
+
+msgid "Nombre del remitente"
+msgstr ""
+
+msgid "Email del remitente"
+msgstr ""
+
+#. Admin - Services
+msgid "Nombre del servicio"
+msgstr ""
+
+msgid "Descripción"
+msgstr ""
+
+msgid "Duración"
+msgstr ""
+
+msgid "Precio"
+msgstr ""
+
+msgid "Capacidad"
+msgstr ""
+
+msgid "Tipo"
+msgstr ""
+
+msgid "Estado"
+msgstr ""
+
+msgid "Activo"
+msgstr ""
+
+msgid "Inactivo"
+msgstr ""
+
+msgid "Borrador"
+msgstr ""
+
+msgid "Archivado"
+msgstr ""
+
+msgid "Público"
+msgstr ""
+
+msgid "Privado"
+msgstr ""
+
+msgid "Visibilidad"
+msgstr ""
+
+msgid "Modalidad"
+msgstr ""
+
+msgid "Presencial"
+msgstr ""
+
+msgid "Online"
+msgstr ""
+
+msgid "Ambas"
+msgstr ""
+
+msgid "Buffer antes (min)"
+msgstr ""
+
+msgid "Buffer después (min)"
+msgstr ""
+
+msgid "Citas 1 a 1"
+msgstr ""
+
+msgid "Clases o servicios con cupos"
+msgstr ""
+
+msgid "Reserva de recurso o espacio"
+msgstr ""
+
+msgid "Eventos o fechas específicas"
+msgstr ""
+
+msgid "cupos"
+msgstr ""
+
+msgid "Crear servicio"
+msgstr ""
+
+msgid "Crea tu primer servicio"
+msgstr ""
+
+msgid "Todavía no tienes servicios. Crea el primero para comenzar."
+msgstr ""
+
+msgid "Cargando servicios..."
+msgstr ""
+
+#. Admin - Availability
+msgid "Horario general"
+msgstr ""
+
+msgid "Descanso"
+msgstr ""
+
+msgid "Excepciones"
+msgstr ""
+
+msgid "Feriado"
+msgstr ""
+
+msgid "Añadir feriado"
+msgstr ""
+
+msgid "Bloquear"
+msgstr ""
+
+msgid "Bloquear fecha"
+msgstr ""
+
+msgid "Bloquear horario"
+msgstr ""
+
+msgid "Aplicar a"
+msgstr ""
+
+msgid "Lunes"
+msgstr ""
+
+msgid "Martes"
+msgstr ""
+
+msgid "Miércoles"
+msgstr ""
+
+msgid "Jueves"
+msgstr ""
+
+msgid "Viernes"
+msgstr ""
+
+msgid "Sábado"
+msgstr ""
+
+msgid "Domingo"
+msgstr ""
+
+#. Admin - Resources
+msgid "Persona"
+msgstr ""
+
+msgid "Sala / espacio"
+msgstr ""
+
+msgid "Equipo"
+msgstr ""
+
+msgid "Otro"
+msgstr ""
+
+msgid "Nombre"
+msgstr ""
+
+msgid "Los recursos son personas, salas o equipos asignables a tus servicios (ej: profesionales, consultorios)."
+msgstr ""
+
+msgid "No tienes recursos. Crea el primero arriba."
+msgstr ""
+
+msgid "Editar recurso"
+msgstr ""
+
+msgid "Cargando recursos..."
+msgstr ""
+
+#. Admin - Payments / Gateways
+msgid "Modo de cobro"
+msgstr ""
+
+msgid "Pago completo"
+msgstr ""
+
+msgid "Anticipo"
+msgstr ""
+
+msgid "Cómo quieres cobrar"
+msgstr ""
+
+msgid "Pago manual / en local"
+msgstr ""
+
+msgid "Stripe (tarjeta de crédito/débito)"
+msgstr ""
+
+msgid "MercadoPago"
+msgstr ""
+
+msgid "WooCommerce"
+msgstr ""
+
+msgid "Medios disponibles para este país"
+msgstr ""
+
+msgid "Pagos recientes"
+msgstr ""
+
+msgid "Pagos pendientes"
+msgstr ""
+
+msgid "Cobro"
+msgstr ""
+
+msgid "Forma de cobro"
+msgstr ""
+
+msgid "Activar tu forma de cobro"
+msgstr ""
+
+msgid "La reserva será confirmada como pago manual."
+msgstr ""
+
+msgid "Cargando medios de pago..."
+msgstr ""
+
+msgid "WooCommerce detectado y activo."
+msgstr ""
+
+msgid "WooCommerce no está activo. Puedes usar el plugin sin WooCommerce."
+msgstr ""
+
+#. Admin - Email templates
+msgid "Emails"
+msgstr ""
+
+msgid "Plantillas de email"
+msgstr ""
+
+msgid "Cargando plantillas..."
+msgstr ""
+
+#. Admin - Form fields
+msgid "Campos"
+msgstr ""
+
+msgid "Arrastra para reordenar los campos del formulario."
+msgstr ""
+
+msgid "Cargando campos..."
+msgstr ""
+
+#. Admin - Design
+msgid "Color principal"
+msgstr ""
+
+msgid "Fondo"
+msgstr ""
+
+msgid "Texto"
+msgstr ""
+
+msgid "Color"
+msgstr ""
+
+msgid "Tipografía"
+msgstr ""
+
+msgid "Bordes redondeados"
+msgstr ""
+
+msgid "Vista previa"
+msgstr ""
+
+msgid "Cargando vista previa..."
+msgstr ""
+
+msgid "Tema"
+msgstr ""
+
+msgid "Layout"
+msgstr ""
+
+msgid "Paso a paso"
+msgstr ""
+
+msgid "Preset"
+msgstr ""
+
+#. Admin - Onboarding / Setup wizard
+msgid "Configuración inicial"
+msgstr ""
+
+msgid "Bienvenida"
+msgstr ""
+
+msgid "Comenzar"
+msgstr ""
+
+msgid "Continuar"
+msgstr ""
+
+msgid "Avanzado"
+msgstr ""
+
+msgid "Básico"
+msgstr ""
+
+msgid "Tiempo estimado: 5–7 minutos"
+msgstr ""
+
+msgid "En pocos pasos la dejaremos lista."
+msgstr ""
+
+msgid "Qué haremos:"
+msgstr ""
+
+msgid "Configura tu agenda"
+msgstr ""
+
+msgid "Crea tu primer servicio"
+msgstr ""
+
+msgid "Define tu horario"
+msgstr ""
+
+msgid "Activa tu forma de cobro"
+msgstr ""
+
+msgid "Publica tu agenda"
+msgstr ""
+
+msgid "¿Qué tipo de agenda necesitas?"
+msgstr ""
+
+msgid "¿Dónde quieres mostrarla?"
+msgstr ""
+
+msgid "¿No estoy seguro"
+msgstr ""
+
+msgid "Crear una página nueva"
+msgstr ""
+
+msgid "Nombre de la página"
+msgstr ""
+
+msgid "Copiar shortcode"
+msgstr ""
+
+msgid "Ver agenda"
+msgstr ""
+
+msgid "Crear tu primer servicio"
+msgstr ""
+
+msgid "Definir tu horario"
+msgstr ""
+
+msgid "Cómo quieres cobrar"
+msgstr ""
+
+msgid "Puedes cambiar esto después en Pagos."
+msgstr ""
+
+msgid "Publicar agenda"
+msgstr ""
+
+msgid "Ver semana"
+msgstr ""
+
+msgid "Editar servicio"
+msgstr ""
+
+#. Admin - Dashboard widgets
+msgid "Reservas hoy"
+msgstr ""
+
+msgid "Próximas reservas"
+msgstr ""
+
+msgid "No tienes reservas para hoy."
+msgstr ""
+
+msgid "Acciones rápidas"
+msgstr ""
+
+#. Admin - Agenda/calendar
+msgid "Hoy"
+msgstr ""
+
+msgid "Mes"
+msgstr ""
+
+msgid "Semana"
+msgstr ""
+
+msgid "Cargando agenda..."
+msgstr ""
+
+msgid "No hay reservas para hoy."
+msgstr ""
+
+msgid "Todos los servicios"
+msgstr ""
+
+msgid "Todos los estados"
+msgstr ""
+
+msgid "Selecciona una reserva para ver detalles."
+msgstr ""
+
+#. Booking statuses
+msgid "Pendiente"
+msgstr ""
+
+msgid "Confirmada"
+msgstr ""
+
+msgid "Completada"
+msgstr ""
+
+msgid "No asistió"
+msgstr ""
+
+msgid "Cancelada (admin)"
+msgstr ""
+
+msgid "Cancelada (cliente)"
+msgstr ""
+
+#. Admin - Clients
+msgid "Cargando clientes..."
+msgstr ""
+
+msgid "Datos básicos"
+msgstr ""
+
+msgid "País actual"
+msgstr ""
+
+msgid "Integraciones"
+msgstr ""

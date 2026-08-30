@@ -1,0 +1,83 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenBooking WP 1.1.0\n"
+"Report-Msgid-Bugs-To: security@openbookingwp.com\n"
+"POT-Creation-Date: 2026-04-08 00:00+0000\n"
+"PO-Revision-Date: 2026-04-08 00:00+0000\n"
+"Last-Translator: OpenBooking WP\n"
+"Language-Team: Spanish\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: OpenAI OpenCode\n"
+
+msgid "OpenBooking WP"
+msgstr "OpenBooking WP"
+
+msgid "OpenBooking Customer"
+msgstr "Cliente de OpenBooking"
+
+msgid "OpenBooking Bookings"
+msgstr "Reservas de OpenBooking"
+
+msgid "First name"
+msgstr "Nombre"
+
+msgid "Last name"
+msgstr "Apellido"
+
+msgid "Email"
+msgstr "Correo electrónico"
+
+msgid "Phone"
+msgstr "Teléfono"
+
+msgid "Notes"
+msgstr "Notas"
+
+msgid "Booking ID"
+msgstr "ID de reserva"
+
+msgid "Service"
+msgstr "Servicio"
+
+msgid "Status"
+msgstr "Estado"
+
+msgid "Payment status"
+msgstr "Estado de pago"
+
+msgid "Start time"
+msgstr "Inicio"
+
+msgid "End time"
+msgstr "Fin"
+
+msgid "Customer notes"
+msgstr "Notas del cliente"
+
+msgid "Deleted customer"
+msgstr "Cliente eliminado"
+
+msgid "OpenBooking customer identity was anonymized while preserving booking records for operational history."
+msgstr "La identidad del cliente fue anonimizada mientras se conservaron las reservas por historial operativo."
+
+msgid "OpenBooking WP stores personal data when a customer creates or manages a booking."
+msgstr "OpenBooking WP almacena datos personales cuando un cliente crea o gestiona una reserva."
+
+msgid "Full name"
+msgstr "Nombre completo"
+
+msgid "Email address"
+msgstr "Dirección de correo electrónico"
+
+msgid "Phone number (optional)"
+msgstr "Número de teléfono (opcional)"
+
+msgid "Booking details and customer notes associated with the reservation"
+msgstr "Detalles de la reserva y notas del cliente asociadas a la reserva"
+
+msgid "This data is used to manage appointments, send notifications, and keep an administrative booking history."
+msgstr "Estos datos se usan para gestionar citas, enviar notificaciones y mantener un historial administrativo de reservas."

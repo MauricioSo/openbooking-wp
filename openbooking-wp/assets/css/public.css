@@ -1,0 +1,772 @@
+.obwp-public.obwp-public {
+    --ob-color-primary: #111111;
+    --ob-color-bg: #ffffff;
+    --ob-color-text: #1f1f1f;
+    --ob-font-family: 'Inter', sans-serif;
+    --ob-radius: 12px;
+
+    all: initial;
+    display: block;
+    font-family: var(--ob-font-family);
+    color: var(--ob-color-text);
+    background: var(--ob-color-bg);
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 24px;
+    box-sizing: border-box;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:where(.obwp-public) *,
+:where(.obwp-public) *::before,
+:where(.obwp-public) *::after {
+    all: unset;
+    box-sizing: border-box;
+    display: revert;
+}
+
+/* SVG elements: restore native rendering (reset has zero specificity now) */
+.obwp-public svg {
+    display: inline-block;
+    overflow: visible;
+}
+
+.obwp-public svg * {
+    display: revert;
+    vector-effect: non-scaling-stroke;
+}
+
+:where(.obwp-public) h1,
+:where(.obwp-public) h2,
+:where(.obwp-public) h3,
+:where(.obwp-public) h4 {
+    display: block;
+    font-weight: 600;
+    margin: 0;
+}
+
+:where(.obwp-public) p,
+:where(.obwp-public) span,
+:where(.obwp-public) small,
+:where(.obwp-public) strong,
+:where(.obwp-public) label {
+    display: inline;
+}
+
+:where(.obwp-public) ul,
+:where(.obwp-public) div {
+    display: block;
+}
+
+:where(.obwp-public) button,
+:where(.obwp-public) a {
+    cursor: pointer;
+    display: inline-block;
+}
+
+:where(.obwp-public) input,
+:where(.obwp-public) textarea,
+:where(.obwp-public) select {
+    display: block;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+.obwp-public.obwp-public img {
+    max-width: 100%;
+    display: block;
+}
+
+.obwp-public.obwp-public [hidden] {
+    display: none !important;
+}
+
+.obwp-stepper {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 32px;
+}
+
+.obwp-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    opacity: 0.4;
+    transition: opacity 0.3s;
+}
+
+.obwp-step--active,
+.obwp-step--completed {
+    opacity: 1;
+}
+
+.obwp-step-num {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 600;
+    background: #e0e0e0;
+    color: #595959;
+}
+
+.obwp-step--active .obwp-step-num {
+    background: var(--ob-color-primary);
+    color: #fff;
+}
+
+.obwp-step--completed .obwp-step-num {
+    background: #d4edda;
+    color: #155724;
+}
+
+.obwp-step-label {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.obwp-panel {
+    display: none;
+    animation: obwpFadeIn 0.3s ease;
+}
+
+.obwp-panel.obwp-panel--active {
+    display: block;
+}
+
+@keyframes obwpFadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.obwp-panel-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 0 8px;
+}
+
+.obwp-panel-subtitle {
+    font-size: 14px;
+    color: #666;
+    margin: 0 0 20px;
+}
+
+.obwp-flow-notice {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 16px;
+    padding: 12px 14px;
+    border: 1px solid #ffe08a;
+    border-radius: var(--ob-radius);
+    background: #fff8db;
+    font-size: 13px;
+}
+
+.obwp-link-btn {
+    background: transparent;
+    border: 0;
+    color: var(--ob-color-primary);
+    cursor: pointer;
+    font-weight: 600;
+    padding: 0;
+}
+
+.obwp-booking-summary {
+    margin-bottom: 20px;
+}
+
+.obwp-booking-summary-card {
+    border: 1px solid #e0e0e0;
+    border-radius: var(--ob-radius);
+    background: #fafafa;
+    padding: 16px;
+}
+
+.obwp-booking-summary-card h3 {
+    margin: 0 0 12px;
+    font-size: 15px;
+}
+
+.obwp-booking-summary-card p {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    margin: 8px 0;
+    font-size: 13px;
+}
+
+.obwp-booking-summary-card span {
+    color: #666;
+}
+
+.obwp-summary-timezone {
+    display: block !important;
+    margin-top: 12px !important;
+    color: #666;
+}
+
+.obwp-service-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.obwp-service-card {
+    border: 1px solid #e0e0e0;
+    border-radius: var(--ob-radius);
+    padding: 16px 20px;
+    cursor: pointer;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.obwp-service-card:hover {
+    border-color: var(--ob-color-primary);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.obwp-service-card h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 4px;
+}
+
+.obwp-service-card p {
+    font-size: 13px;
+    color: #666;
+    margin: 0;
+}
+
+.obwp-date-picker-section {
+    margin-bottom: 20px;
+}
+
+.obwp-calendar {
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    border-radius: var(--ob-radius);
+    overflow: hidden;
+}
+
+.obwp-calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    background: #fafafa;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.obwp-calendar-header button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.obwp-calendar-header button:hover {
+    background: #e0e0e0;
+}
+
+.obwp-calendar-header button:focus-visible {
+    outline: 3px solid var(--ob-color-primary);
+    outline-offset: 2px;
+}
+
+.obwp-calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 2px;
+    padding: 8px;
+}
+
+.obwp-calendar-day-header {
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    color: #767676;
+    padding: 8px 0;
+    text-transform: uppercase;
+}
+
+.obwp-calendar-day {
+    text-align: center;
+    padding: 10px 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.2s;
+    min-height: 44px;
+    min-width: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.obwp-calendar-day:focus-visible {
+    outline: 3px solid var(--ob-color-primary);
+    outline-offset: 2px;
+}
+
+.obwp-calendar-day:hover {
+    background: #f0f0f0;
+}
+
+.obwp-calendar-day--available {
+    font-weight: 600;
+    color: var(--ob-color-primary);
+}
+
+.obwp-calendar-day--selected {
+    background: var(--ob-color-primary);
+    color: #fff;
+}
+
+.obwp-calendar-day--disabled {
+    color: #b0b0b0;
+    cursor: default;
+}
+
+.obwp-calendar-day--disabled:hover {
+    background: transparent;
+}
+
+.obwp-time-picker-section {
+    margin-top: 20px;
+}
+
+.obwp-time-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    gap: 8px;
+}
+
+.obwp-time-slot {
+    text-align: center;
+    padding: 12px 8px;
+    border: 1px solid #e0e0e0;
+    border-radius: var(--ob-radius);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.2s;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.obwp-time-slot:focus-visible {
+    outline: 3px solid var(--ob-color-primary);
+    outline-offset: 2px;
+}
+
+.obwp-time-slot:hover {
+    border-color: var(--ob-color-primary);
+    background: rgba(17,17,17,0.04);
+}
+
+.obwp-time-slot--selected {
+    background: var(--ob-color-primary);
+    color: #fff;
+    border-color: var(--ob-color-primary);
+}
+
+.obwp-field {
+    margin-bottom: 16px;
+}
+
+.obwp-field-label {
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.obwp-field input[type="text"],
+.obwp-field input[type="email"],
+.obwp-field input[type="tel"],
+.obwp-field textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+    border-radius: var(--ob-radius);
+    font-size: 14px;
+    font-family: var(--ob-font-family);
+    transition: border-color 0.2s;
+}
+
+.obwp-field input:focus,
+.obwp-field textarea:focus {
+    outline: none;
+    border-color: var(--ob-color-primary);
+}
+
+.obwp-field .obwp-error {
+    color: #dc3545;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.obwp-nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    gap: 12px;
+}
+
+.obwp-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 20px;
+    border-radius: var(--ob-radius);
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: all 0.2s;
+    min-height: 44px;
+}
+
+.obwp-btn:focus-visible {
+    outline: 3px solid var(--ob-color-primary);
+    outline-offset: 2px;
+}
+
+.obwp-btn--primary {
+    background: var(--ob-color-primary);
+    color: #fff;
+}
+
+.obwp-btn--primary:hover {
+    opacity: 0.9;
+}
+
+.obwp-btn--secondary {
+    background: transparent;
+    color: var(--ob-color-text);
+    border-color: #ddd;
+}
+
+.obwp-btn--secondary:hover {
+    border-color: #999;
+}
+
+.obwp-confirmation {
+    text-align: center;
+    padding: 24px 0;
+}
+
+.obwp-state {
+    text-align: center;
+    padding: 20px;
+    border-radius: var(--ob-radius);
+    margin-bottom: 16px;
+}
+
+.obwp-state--success {
+    border: 2px solid #2e7d32;
+    background: #e8f5e9;
+}
+
+.obwp-state--pending {
+    border: 2px dashed #f57c00;
+    background: #fff3e0;
+}
+
+.obwp-state--failed {
+    border: 2px solid #c62828;
+    background: #ffebee;
+}
+
+.obwp-state-icon {
+    font-size: 28px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.obwp-state--success .obwp-state-icon::after {
+    content: " ✓";
+    visibility: hidden;
+    position: absolute;
+}
+
+.obwp-confirmation-icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: #d4edda;
+    color: #155724;
+    font-size: 28px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    border: 2px solid #2e7d32;
+}
+
+
+.obwp-confirmation-actions {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+/* ── Booking detail card ──────────────────────────────────────────────────
+   Used in: post-submit confirmation (step 5) and ?obwp_token view.
+   Design: single rounded card — coloured header + white body + actions.
+──────────────────────────────────────────────────────────────────────── */
+.obwp-booking-detail {
+    display: block;
+    border-radius: var(--ob-radius);
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    margin: 8px 0 24px;
+}
+
+/* Override the generic .obwp-state styles when inside the detail card */
+.obwp-booking-detail .obwp-state {
+    border: none;
+    border-radius: 0;
+    margin: 0;
+    padding: 28px 24px 22px;
+}
+
+.obwp-booking-detail .obwp-state--success {
+    background: #1b5e20;
+    color: #fff;
+}
+
+.obwp-booking-detail .obwp-state--pending {
+    background: #e65100;
+    color: #fff;
+}
+
+.obwp-booking-detail .obwp-state--failed {
+    background: #b71c1c;
+    color: #fff;
+}
+
+.obwp-booking-detail .obwp-state .obwp-panel-title {
+    color: #fff;
+    font-size: 18px;
+    margin: 8px 0 0;
+}
+
+.obwp-booking-detail .obwp-state .obwp-note {
+    color: rgba(255,255,255,0.85);
+    font-size: 13px;
+    margin-top: 6px;
+    display: block;
+}
+
+.obwp-booking-detail .obwp-state-icon {
+    font-size: 32px;
+    margin-bottom: 4px;
+    display: block;
+    line-height: 1;
+}
+
+/* White body with the detail rows */
+.obwp-booking-detail-card {
+    background: #fff;
+    padding: 4px 24px 8px;
+    border-left: 1px solid #e8e8e8;
+    border-right: 1px solid #e8e8e8;
+}
+
+.obwp-detail-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    padding: 13px 0;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.obwp-detail-row:last-child {
+    border-bottom: none;
+}
+
+.obwp-detail-label {
+    color: #888;
+    font-size: 13px;
+    flex-shrink: 0;
+}
+
+.obwp-detail-value {
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--ob-color-text);
+    text-align: right;
+}
+
+.obwp-detail-row--total {
+    border-top: 1px dashed #e0e0e0;
+    margin-top: 4px;
+    font-weight: 700;
+}
+
+.obwp-detail-ref {
+    font-size: 13px;
+    color: #999;
+    font-weight: 500;
+}
+
+/* SVG icons inside state header inherit the white color */
+.obwp-booking-detail .obwp-state-icon svg {
+    stroke: currentColor;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Action buttons — flush below the card, no box shadow */
+.obwp-booking-detail .obwp-confirmation-actions {
+    background: #fafafa;
+    border: 1px solid #e8e8e8;
+    border-top: none;
+    border-bottom-left-radius: var(--ob-radius);
+    border-bottom-right-radius: var(--ob-radius);
+    padding: 16px 24px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 0;
+}
+
+.obwp-service-card:focus-visible {
+    outline: 3px solid var(--ob-color-primary);
+    outline-offset: 2px;
+}
+
+.obwp-service-card[aria-pressed="true"],
+.obwp-time-slot--selected {
+    border: 2px solid var(--ob-color-primary);
+    background: rgba(17,17,17,0.06);
+}
+
+.obwp-loading,
+.obwp-empty {
+    text-align: center;
+    padding: 24px;
+    color: #767676;
+    font-style: italic;
+}
+
+.obwp-empty-help,
+.obwp-note,
+.obwp-next-steps {
+    color: #666;
+    font-size: 13px;
+}
+
+@media (max-width: 600px) {
+    .obwp-public.obwp-public {
+        padding: 16px;
+    }
+
+    .obwp-stepper {
+        gap: 4px;
+    }
+
+    .obwp-step-label {
+        font-size: 0;
+        line-height: 0;
+    }
+
+    .obwp-step-label::after {
+        content: attr(data-step-short);
+        font-size: 11px;
+        line-height: 1.4;
+    }
+
+    .obwp-step-num {
+        width: 36px;
+        height: 36px;
+        font-size: 15px;
+    }
+
+    .obwp-time-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .obwp-time-slot {
+        min-height: 48px;
+        font-size: 15px;
+    }
+
+    .obwp-calendar-grid {
+        gap: 1px;
+    }
+
+    .obwp-calendar-day {
+        padding: 8px 4px;
+        font-size: 13px;
+    }
+
+    .obwp-nav-buttons {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .obwp-nav-buttons .obwp-btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .obwp-booking-summary-card p {
+        flex-direction: column;
+        gap: 2px;
+    }
+}
+
+@media (max-width: 400px) {
+    .obwp-step-num {
+        width: 30px;
+        height: 30px;
+        font-size: 13px;
+    }
+
+    .obwp-time-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.obwp-public .screen-reader-text {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    word-wrap: normal;
+}
+
+.obwp-field input:focus-visible,
+.obwp-field textarea:focus-visible {
+    outline: 3px solid var(--ob-color-primary);
+    outline-offset: 2px;
+}
+
+.obwp-link-btn:focus-visible {
+    outline: 3px solid var(--ob-color-primary);
+    outline-offset: 2px;
+}

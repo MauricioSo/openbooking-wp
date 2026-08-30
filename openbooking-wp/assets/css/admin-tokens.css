@@ -1,0 +1,67 @@
+.ob-admin-wrap {
+  --ob-bg:            #F4EFE5;
+  --ob-bg-white:      #FFF9EF;
+  --ob-shadow-dark:   #D9CFBC;
+  --ob-shadow-light:  #FFFBF2;
+  --ob-accent:        #C8761E;
+  --ob-accent-2:      #B85C3D;
+  --ob-accent-light:  rgba(200,118,30,0.14);
+  --ob-text-primary:  #2F2E26;
+  --ob-text-secondary:#6B6859;
+  --ob-text-muted:    #A59F8E;
+  --ob-success:       #6B8E4E;
+  --ob-warning:       #D58B39;
+  --ob-danger:        #B85C3D;
+  --ob-nm-out:    0 4px 24px rgba(60,48,29,0.08);
+  --ob-nm-in:     0 2px 8px rgba(60,48,29,0.06), inset 0 0 0 1px rgba(60,48,29,0.08);
+  --ob-nm-out-sm: 0 2px 10px rgba(60,48,29,0.06);
+  --ob-nm-in-sm:  inset 0 0 0 1px rgba(60,48,29,0.1);
+  --ob-radius-sm:   12px;
+  --ob-radius:      18px;
+  --ob-radius-lg:   26px;
+  --ob-radius-pill: 50px;
+  --ob-font:        'Nunito Sans', -apple-system, 'Segoe UI', sans-serif;
+  --ob-font-display:'Fredoka', 'Nunito Sans', sans-serif;
+  --ob-font-mono:   'JetBrains Mono', monospace;
+  --ob-transition:  all 0.2s ease;
+  --ob-space-1: 4px;
+  --ob-space-2: 8px;
+  --ob-space-3: 12px;
+  --ob-space-4: 16px;
+  --ob-space-5: 20px;
+  --ob-space-6: 24px;
+  --ob-space-8: 32px;
+  --ob-space-12: 48px;
+}
+
+.ob-admin-wrap {
+  background: var(--ob-bg);
+  font-family: var(--ob-font);
+  color: var(--ob-text-primary);
+  min-height: 100vh;
+  padding: var(--ob-space-8) var(--ob-space-6);
+  max-width: none;
+}
+
+.ob-admin-wrap h1,
+.ob-admin-wrap .ob-page-title {
+  font-family: var(--ob-font-display);
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  margin: 0 0 var(--ob-space-4);
+}
+
+.ob-admin-wrap .ob-page-subtitle,
+.ob-admin-wrap .ob-meta {
+  font-size: 13px;
+  color: var(--ob-text-muted);
+  margin: 0 0 var(--ob-space-4);
+}
+
+.ob-admin-wrap .ob-section-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--ob-text-primary);
+  margin: 0 0 var(--ob-space-3);
+}

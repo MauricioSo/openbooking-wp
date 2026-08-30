@@ -1,0 +1,23 @@
+{
+  "apiVersion": 2,
+  "name": "openbooking/booking-form",
+  "title": "OpenBooking",
+  "category": "widgets",
+  "icon": "calendar-alt",
+  "description": "Muestra el formulario publico de reservas de OpenBooking.",
+  "textdomain": "openbooking-wp",
+  "attributes": {
+    "service": {
+      "type": "string",
+      "default": ""
+    },
+    "layout": {
+      "type": "string",
+      "default": "steps"
+    },
+    "preset": {
+      "type": "string",
+      "default": ""
+    }
+  }
+}

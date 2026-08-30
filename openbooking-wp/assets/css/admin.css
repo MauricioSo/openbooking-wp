@@ -1,0 +1,376 @@
+.obwp-wrap {
+    max-width: 960px;
+}
+
+.obwp-wrap h1,
+.obwp-wrap h2 {
+    font-family: var(--ob-font-display, 'Fredoka', sans-serif);
+    font-weight: 600;
+    letter-spacing: -0.02em;
+}
+
+.obwp-wrap h1 {
+    font-size: 23px;
+    margin: 10px 0 20px;
+}
+
+.obwp-header-with-action {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.obwp-dashboard-stats {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.obwp-stat-card {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px 24px;
+    text-align: center;
+    flex: 1;
+}
+
+.obwp-stat-number {
+    display: block;
+    font-size: 32px;
+    font-weight: 600;
+    color: #1f1f1f;
+}
+
+.obwp-stat-label {
+    display: block;
+    font-size: 13px;
+    color: #666;
+    margin-top: 4px;
+}
+
+.obwp-dashboard-section {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px 24px;
+    margin-bottom: 20px;
+}
+
+.obwp-dashboard-section h2 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 12px;
+}
+
+.obwp-empty-state {
+    text-align: center;
+    padding: 40px 20px;
+    color: #666;
+}
+
+.obwp-booking-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.obwp-booking-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #f0f0f0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.obwp-booking-list li:last-child {
+    border-bottom: none;
+}
+
+.obwp-quick-actions {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.obwp-form-actions {
+    margin-top: 24px;
+    padding-top: 16px;
+    border-top: 1px solid #e0e0e0;
+    display: flex;
+    gap: 8px;
+}
+
+.obwp-scrollable-checklist {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.obwp-status-on { color: #155724; font-weight: 500; }
+.obwp-status-off { color: #666; font-style: italic; }
+
+.obwp-loading {
+    color: #999;
+    font-style: italic;
+}
+
+.obwp-empty {
+    color: #999;
+    font-style: italic;
+}
+
+.obwp-onboarding-subtitle {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+.obwp-onboarding-progress {
+    margin-bottom: 24px;
+}
+
+.obwp-onboarding-progress span {
+    display: block;
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.obwp-onboarding-step {
+    display: none;
+}
+
+.obwp-onboarding-step.active {
+    display: block;
+}
+
+.obwp-onboarding-step h2 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 12px;
+}
+
+.obwp-onboarding-step ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin: 12px 0;
+}
+
+.obwp-onboarding-step ul li {
+    margin-bottom: 6px;
+    font-size: 13px;
+}
+
+.obwp-progress-bar {
+    height: 8px;
+    background: #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.obwp-progress-fill {
+    height: 100%;
+    background: #2271b1;
+    border-radius: 4px;
+    transition: width 0.4s ease;
+}
+
+.obwp-audit-layout {
+    align-items: flex-start;
+}
+
+.obwp-audit-pagination {
+    margin-top: 12px;
+    display: flex;
+    gap: 8px;
+}
+
+.obwp-audit-inline-list {
+    margin: 0;
+    padding-left: 18px;
+}
+
+.obwp-audit-inline-list li {
+    margin-bottom: 6px;
+}
+
+.obwp-audit-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 10px 0 14px;
+}
+
+.obwp-audit-section {
+    margin-top: 16px;
+}
+
+.obwp-audit-diff-table td,
+.obwp-audit-diff-table th {
+    vertical-align: top;
+}
+
+.obwp-audit-actions {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin: 10px 0 16px;
+}
+
+.obwp-status-with-icon {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.obwp-status-with-icon .dashicons {
+    font-size: 14px;
+    width: 14px;
+    height: 14px;
+}
+
+.obwp-error {
+    color: #dc2626;
+}
+
+@media (max-width: 782px) {
+    .obwp-dashboard-stats {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+.ob-admin-wrap .ob-card,
+.ob-admin-wrap .ob-card-sm,
+.ob-admin-wrap .ob-stat-card,
+.ob-admin-wrap .obwp-card,
+.ob-admin-wrap .obwp-form,
+.ob-admin-wrap .obwp-onboarding-step,
+.ob-admin-wrap .obwp-agenda-main,
+.ob-admin-wrap .obwp-agenda-sidebar,
+.ob-admin-wrap .ob-list-item,
+.ob-admin-wrap .obwp-schedule-row,
+.ob-admin-wrap .obwp-preset-card,
+.ob-admin-wrap .ob-search-bar,
+.ob-admin-wrap .obwp-time-input {
+    background: var(--ob-bg-white) !important;
+    box-shadow: var(--ob-nm-out) !important;
+    border: 1px solid rgba(60,48,29,0.06);
+}
+
+.ob-admin-wrap .ob-input,
+.ob-admin-wrap .obwp-field input[type="text"],
+.ob-admin-wrap .obwp-field input[type="email"],
+.ob-admin-wrap .obwp-field input[type="number"],
+.ob-admin-wrap .obwp-field input[type="date"],
+.ob-admin-wrap .obwp-field input[type="url"],
+.ob-admin-wrap .obwp-field input[type="password"],
+.ob-admin-wrap .obwp-field input[type="time"],
+.ob-admin-wrap .obwp-field input[type="datetime-local"],
+.ob-admin-wrap .obwp-field textarea,
+.ob-admin-wrap .ob-select,
+.ob-admin-wrap .obwp-field select,
+.ob-admin-wrap input.regular-text,
+.ob-admin-wrap textarea.large-text {
+    background: var(--ob-bg-white) !important;
+    border: 1px solid rgba(60,48,29,0.1) !important;
+    box-shadow: none !important;
+}
+
+.ob-admin-wrap .ob-input:focus,
+.ob-admin-wrap .obwp-field input:focus,
+.ob-admin-wrap .obwp-field textarea:focus,
+.ob-admin-wrap .ob-select:focus,
+.ob-admin-wrap .obwp-field select:focus {
+    border-color: var(--ob-accent) !important;
+    box-shadow: 0 0 0 3px var(--ob-accent-light) !important;
+}
+
+.ob-admin-wrap .ob-btn-primary,
+.ob-admin-wrap .button-primary {
+    background: var(--ob-accent) !important;
+    box-shadow: 0 4px 12px rgba(200,118,30,0.25) !important;
+}
+
+.ob-admin-wrap .ob-btn-primary:hover,
+.ob-admin-wrap .button-primary:hover {
+    background: var(--ob-accent-2) !important;
+    box-shadow: 0 6px 16px rgba(200,118,30,0.3) !important;
+}
+
+.ob-admin-wrap .ob-btn-secondary,
+.ob-admin-wrap .button-secondary {
+    background: var(--ob-bg-white) !important;
+    border: 1px solid rgba(60,48,29,0.1) !important;
+    box-shadow: none !important;
+}
+
+.ob-admin-wrap .ob-btn-secondary:hover,
+.ob-admin-wrap .button-secondary:hover {
+    border-color: var(--ob-accent) !important;
+    color: var(--ob-accent) !important;
+    box-shadow: none !important;
+}
+
+.ob-admin-wrap .ob-tabs,
+.ob-admin-wrap .obwp-agenda-views {
+    background: var(--ob-bg) !important;
+    box-shadow: none !important;
+    border: 1px solid rgba(60,48,29,0.08);
+}
+
+.ob-admin-wrap .ob-checkbox {
+    background: var(--ob-bg-white) !important;
+    border: 1.5px solid rgba(60,48,29,0.15) !important;
+    box-shadow: none !important;
+}
+
+.ob-admin-wrap .ob-checkbox:checked {
+    background: var(--ob-accent) !important;
+    border-color: var(--ob-accent) !important;
+    box-shadow: none !important;
+}
+
+.ob-admin-wrap .ob-progress-track {
+    background: var(--ob-bg) !important;
+    box-shadow: none !important;
+}
+
+.ob-admin-wrap table.widefat {
+    background: var(--ob-bg-white) !important;
+}
+
+.ob-admin-wrap table.widefat thead th {
+    background: var(--ob-bg);
+}
+
+.ob-admin-wrap .ob-stat-icon {
+    box-shadow: none !important;
+    background: var(--ob-accent-light) !important;
+}
+
+.ob-admin-wrap .ob-avatar {
+    background: var(--ob-accent) !important;
+    box-shadow: none !important;
+}
+
+.ob-admin-wrap .obwp-preset-card.selected {
+    border-color: var(--ob-accent) !important;
+    box-shadow: 0 0 0 2px var(--ob-accent-light) !important;
+}
+
+#toplevel_page_openbooking .wp-menu-image img {
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    margin: -3px 0 0 -4px;
+    opacity: 1;
+}
+
+#toplevel_page_openbooking.current .wp-menu-image img {
+    filter: brightness(1.1);
+}
+
+#adminmenu #toplevel_page_openbooking div.wp-menu-image {
+    font-size: 28px;
+}
